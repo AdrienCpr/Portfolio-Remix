@@ -1,27 +1,3 @@
-# Remix Indie Stack
-
-![The Remix Glanum Stack](https://repository-images.githubusercontent.com/465928257/a241fa49-bd4d-485a-a2a5-5cb8e4ee0abf)
-
-Learn more about [Remix Stacks](https://remix.run/stacks).
-
-```sh
-npx create-remix@latest --template remix-run/glanum-stack
-```
-
-## What's in the stack
-
-- [GitHub Actions](https://github.com/features/actions) for deploy on merge to production and staging environments
-- Email/Password Authentication with [cookie-based sessions](https://remix.run/utils/sessions#md-createcookiesessionstorage)
-- Styling with [Tailwind](https://tailwindcss.com/)
-- End-to-end testing with [Cypress](https://cypress.io)
-- Local third party request mocking with [MSW](https://mswjs.io)
-- Unit testing with [Vitest](https://vitest.dev) and [Testing Library](https://testing-library.com)
-- Code formatting with [Prettier](https://prettier.io)
-- Linting with [ESLint](https://eslint.org)
-- Static Types with [TypeScript](https://typescriptlang.org)
-- Forms handled by [Remix forms](https://remix-forms.seasoned.cc)
-- Features by [domains](https://github.com/seasonedcc/domain-functions)
-
 ## Development
 
 - Start dev server:
